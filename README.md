@@ -1,50 +1,72 @@
-**eWPT Exam Simulation Labs**
-Overview
-This repository contains a curated collection of eLearnSecurity Web Application Penetration Tester (eWPT)–style labs designed to simulate real exam conditions. Each lab focuses on realistic web vulnerabilities, enumeration, exploitation, and privilege escalation — helping you sharpen your offensive web testing methodology.
+# 🎯 eWPT Exam Simulation Labs 👩‍💻👨‍💻
 
-**🔬 Labs Included**
-Lab	Source	Focus
-Mr. Robot	VulnHub (vulnhub.com in Bing) / GitHub	Enumeration, CMS exploitation, privilege escalation
-Prime 1	VulnHub (vulnhub.com in Bing) / GitHub	Directory brute-forcing, logic flaws, credential reuse
-DerpNStink	VulnHub (vulnhub.com in Bing) / GitHub	Web app enumeration, password cracking, lateral movement
-PwnOS v2.0	VulnHub (vulnhub.com in Bing) / GitHub	SQL injection, privilege escalation, OS-level exploitation
-**
-🧰 Tools & Resources**
+![Security](https://img.shields.io/badge/Focus-Web_App_Penetration_Testing-red?style=flat-square&logo=hackthebox)
+![Environment](https://img.shields.io/badge/Environment-Ubuntu%20%7C%20Docker-blue?style=flat-square&logo=linux)
+![Prep](https://img.shields.io/badge/Prep-eWPT-success?style=flat-square)
 
-**Dictionaries**
-rockyou.txt → /usr/share/wordlists/rockyou.txt.gz
-SecLists → /usr/share/dirbuster/wordlists
+Welcome to the ultimate training ground! This repository contains a curated collection of **eLearnSecurity Web Application Penetration Tester (eWPT)**–style labs designed to simulate real exam conditions. 
 
-**Enumeration**
-Tools: dirsearch, dirb, dirbuster
-Dictionary: SecList
+Whether you are sharpening your offensive web testing methodology, practicing enumeration, or grinding through privilege escalation, these labs will help get you exam-ready.
 
-**Vulnerability Scanning**
-Nikto
+---
 
-**Password Cracking**
-Hashcat, John the Ripper
-hashes.com
+## 🔬 The Lab Roster
 
-**Core Utilities**
-Nmap
-BurpSuite
-Exploit-DB
-Dirsearch
-Metasploit
-**Your brain and analysis are your best tools.**
+Dive into these carefully selected vulnerable environments. Each lab targets specific real-world vulnerabilities and logic flaws.
 
-**🧩 Environment**
-Ubuntu-based setup
-Compatible with Docker or VirtualBox or VMware
+| Lab Name 🧪 | Source 🌐 | Primary Focus 🎯 |
+| :--- | :--- | :--- |
+| **Mr. Robot** | VulnHub / GitHub | Enumeration, CMS exploitation, Privilege Escalation |
+| **Prime 1** | VulnHub / GitHub | Directory brute-forcing, Logic flaws, Credential reuse |
+| **DerpNStink** | VulnHub / GitHub | Web app enumeration, Password cracking, Lateral movement |
+| **PwnOS v2.0** | VulnHub / GitHub | SQL injection, Privilege escalation, OS-level exploitation |
 
-**Optional integration challenges for extended practice**
-https://www.root-me.org/es/Desafios/Web-Servidor/API-Mass-Assignment 
-DVBank / DVBLab
-A modern, full‑stack intentionally vulnerable banking application built with Flask + React.
-GitHub Repo: https://github.com/mamgad/DVBLab
-Course Materials (modules): https://github.com/kolega-ai/realvuln-DVBLab/tree/main/course
-CTF Learning Fork: https://github.com/JacLamarc/Damn-Vulnerable-Bank-CTF-Learning 
+---
 
-**🎯 Purpose**
-To provide a structured, repeatable environment for eWPT exam preparation and real-world web penetration testing practice. Each lab reinforces methodology, enumeration discipline, and exploitation logic.
+## 🧰 The Hacker's Arsenal
+
+Equip yourself with the right tools before dropping into the labs. 
+
+### 📖 Dictionaries & Wordlists
+* **rockyou.txt**: ` /usr/share/wordlists/rockyou.txt.gz`
+* **SecLists**: `/usr/share/dirbuster/wordlists`
+
+### 🕵️‍♂️ Enumeration & Scanning
+* **Web Directories**: `dirsearch`, `dirb`, `dirbuster`
+* **Vulnerability Scanning**: `Nikto`
+
+### 🔑 Password Cracking
+* **Offline Crackers**: Hashcat, John the Ripper
+* **Online Lookup**: [hashes.com](https://hashes.com)
+
+### 🔨 Core Utilities
+* **Network Mapping**: Nmap
+* **Web Proxy**: BurpSuite
+* **Exploitation**: Exploit-DB, Metasploit
+* **The Ultimate Tool**: 🧠 **Your brain and analytical skills!**
+
+---
+
+## 🧩 Environment Setup
+
+Get your testing environment up and running smoothly:
+
+* **OS Base**: Ubuntu-based setup recommended.
+* **Virtualization**: Fully compatible with Docker, VirtualBox, or VMware.
+
+### 🌟 Bonus Practice Targets
+Looking for extended practice? Check out these supplementary challenges:
+
+* **Root-Me API Challenge**: [Mass Assignment](https://www.root-me.org/es/Desafios/Web-Servidor/API-Mass-Assignment)
+* **DVBank / DVBLab**: A modern, full‑stack intentionally vulnerable banking application built with Flask + React.
+    * **Main Repo**: [DVBLab GitHub](https://github.com/mamgad/DVBLab)
+    * **Course Materials**: [RealVuln-DVBLab Modules](https://github.com/kolega-ai/realvuln-DVBLab/tree/main/course)
+    * **CTF Fork**: [Damn-Vulnerable-Bank-CTF](https://github.com/JacLamarc/Damn-Vulnerable-Bank-CTF-Learning)
+
+---
+
+## 🚀 Purpose
+
+> **"Methodology is everything."**
+
+The goal of this repository is to provide a structured, repeatable environment for **eWPT exam preparation** and real-world web penetration testing practice. Treat each lab as a real engagement to reinforce your methodology, enumeration discipline, and exploitation logic. Happy hacking! 👾
